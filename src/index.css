@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-100;
+  }
+}
+
+@layer components {
+  .calendar-cell {
+    @apply relative h-28 md:h-32 border border-stone-200 bg-white/80 transition-all duration-200 cursor-pointer;
+  }
+  
+  .calendar-cell.selected-start {
+    @apply bg-blue-600 text-white rounded-l-lg;
+  }
+  
+  .calendar-cell.selected-end {
+    @apply bg-blue-600 text-white rounded-r-lg;
+  }
+  
+  .calendar-cell.selected-between {
+    @apply bg-blue-100;
+  }
+  
+  .calendar-cell:hover {
+    @apply bg-stone-50;
+  }
+  
+  .calendar-cell.selected-start .day-number,
+  .calendar-cell.selected-end .day-number {
+    @apply text-white;
+  }
+}
+
+.day-number {
+  @apply absolute top-1 right-1 text-sm font-medium text-stone-500;
+}
