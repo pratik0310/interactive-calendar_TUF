@@ -4,11 +4,11 @@ A polished, interactive calendar component built with **React + Vite + Tailwind 
 
 ## 🚀 Live Demo
 
-🔗 **[View Live Demo](https://interactive-calendar-tuf.vercel.app/)** *(Add your Vercel link after deployment)*
+🔗 **[View Live Demo](https://interactive-calendar-tuf.vercel.app/)** 
 
 ## 📹 Video Demo
 
-🔗 **[Watch Demo Video](https://drive.google.com/file/d/1heQ8Gh5syaRbh4Wx9h4Hp7J4n6gkUv0y/view?usp=drive_link)** *(Add your Loom/YouTube link)*
+🔗 **[Watch Demo Video](https://drive.google.com/file/d/1heQ8Gh5syaRbh4Wx9h4Hp7J4n6gkUv0y/view?usp=drive_link)** 
 
 ---
 
